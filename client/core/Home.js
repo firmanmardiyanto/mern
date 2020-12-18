@@ -4,7 +4,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
-import profileImg from "./../assets/images/firman_mardiyanto.JPG";
+import profileImg from "./../assets/images/profile.jpg";
 
 const useStyles = makeStyles((theme) => ({
     card: {
@@ -53,13 +53,13 @@ export default function Home() {
             >
                 Photo by{" "}
                 <a
-                    href="https://unsplash.com/@boudewijn_huysmans"
+                    href="https://github.com/firmanmardiyanto"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Boudewijn Huysmans
+                    Firman Mardiyanto
                 </a>{" "}
-                on Unsplash
+                on Baparekraf Digital Talent Day
             </Typography>
             <CardContent>
                 <Typography variant="body1" component="p">

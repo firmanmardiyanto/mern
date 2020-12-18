@@ -15,7 +15,7 @@ const isActive = (history, path) => {
 const Menu = withRouter(({ history }) => (
     <AppBar position="static">
         <Toolbar>
-            <Typography variant="h6" color="inherit">
+            <Typography variant="h6" color="#f156ff">
                 MERN
             </Typography>
             <Link to="/">
